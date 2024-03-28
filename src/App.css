@@ -1,0 +1,782 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.secd button img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.secd {
+    background: rgb(137, 184, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secd img{
+    width: 900px;
+}
+.secd h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.secd p{
+    color: white;
+    font-size: 15px;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.secd button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.cardb{
+    
+    width: 330px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 5px;
+    background: url('https://i.pinimg.com/564x/25/a0/a6/25a0a6f4f39333a12ad2af2043895944.jpg');
+    margin-bottom: 50px;
+    box-shadow: 0px 25px 20px grey;
+}
+.cardb h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.cardb :nth-child(2){
+    opacity: 0.6;
+    width: 180px;
+    text-align: center;
+}
+.cardo  div:nth-child(3){
+    background: url('https://i.pinimg.com/564x/98/42/44/984244090f836ec58592de661cac4b7f.jpg');
+}
+.cardo  div:nth-child(2){
+    background: url('https://i.pinimg.com/564x/42/60/c8/4260c845ca78bef281995cd76a038c11.jpg');
+}
+.cardo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    z-index: -1;
+
+}
+.cardg{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.cardg h3{
+text-align: center;
+padding-top: 20px;
+}
+
+.cardg h1:nth-child(2){
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.cardin{
+    width: 270px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 0px 25px 0px white;
+}
+.cardin img{
+width: 50px;
+
+}
+.cardbac{
+    width: 350px;
+    height: 350px;
+    border: 2px solid yellow;
+}
+
+/* fourth */
+.FourM button img{
+    width: 30px;
+    margin-right: 10px;
+}
+.FourM{
+    width: 550px;
+    height: 500px;
+ 
+    background-color:rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+    
+}
+.FourM  h1{
+font-size: 55px;
+font-weight: bolder;
+width: 400px;
+text-align: center;
+color: rgb(41, 54, 26);
+}
+.FourM h4{
+    color: rgb(137, 184, 88);
+}
+.FourM p{
+    text-align: center;
+    color: gray;
+}
+.FourM button{
+    border-radius: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(137, 184, 88);
+    color: white;
+    border: none;
+   
+
+}
+.FourL{
+    width: 250px;
+   
+    height: 500px;
+    background: url('https://i.pinimg.com/564x/23/8f/9b/238f9b47722111024e3e18438cf4fb03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-right: 50px;
+
+}
+.FourR{
+    border-radius: 5px;
+    width: 250px;
+    height: 500px;
+    background: url('https://mobirise.com/extensions/dinerm4/assets/images/01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.FourO{
+    display: flex;
+    justify-content:center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(250, 250, 250);
+   
+}
+
+/* Fifth */
+.FifthL img:nth-child(1){
+    width: 500px;
+    position:relative;
+    animation-name: picmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -1;
+    
+
+    
+}
+
+
+@keyframes picmove {
+    0%{left: 0px;}
+    50%{left: 200px;top: 0px;}
+    100%{left: 0px;}
+}
+
+.FifthL img:nth-child(2){
+    width: 140px;
+    height: 80px;
+    align-self: self-end;
+}
+.FifthL{
+    
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    padding-right: 40px;
+
+    
+}
+
+.FifthL p{
+    align-self: self-end;
+    width: 100px;
+}
+.FifthR div img{
+width: 70px;
+height:70px;
+text-align: center;
+}
+
+.FifthR{
+    display: flex;
+    flex-direction: column;
+    height:620px ;
+   
+    width: 110px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.FifthR p{
+    text-align: center;
+    
+}
+.FifthO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 184, 88);
+    width:1000px;
+    height:800px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.FifthO p{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+.FifthOV{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* Sixth */
+
+.SixthB1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin:0px 30px;
+    
+    }
+    .Sixthinner{
+        display: flex;
+    }
+    .SixthB1 button{
+        background:rgb(137, 184, 88) ;
+        color:white;
+        font-weight: bold;
+        border-radius: 10px;
+        width: 80px;
+        border: none;
+    }
+    .Sixthinner p{
+        font-size: 30px;
+        font-weight:bold;
+    
+    }
+    .Sixthinner p:nth-child(2){
+        color: grey;
+    
+    }
+    .Sixthinner p:nth-child(3){
+        color:rgb(137, 184, 88) ;
+     
+     }
+     .Sixthouter{
+        color: grey;
+     }
+
+     .SixthB1{
+        width: 600px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+     }
+     .Siximg{
+        
+        width: 150px;
+        height:150px;
+        float: left;
+     }
+     .SixthT{
+        text-align: center;
+     }
+     .SixthT h1{
+        font-size: 50px;
+        font-weight: bold;
+
+     }
+     .SixthT h3{
+        color:rgb(137, 184, 88) ;
+     }
+     .SixthB{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+     }
+
+     /* Seventh */
+     .SeventhM button img{
+        width: 20px;
+        margin-right: 10px;
+    }
+    .SeventhM{
+        width: 300px;
+        height: 400px;
+        background-color:rgb(36, 36, 36);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+       border-radius: 5px;
+       
+        
+    }
+    .SeventhM  h1{
+    font-size: 55px;
+    font-weight:900;
+    width: 400px;
+    margin-bottom: 25px;
+    
+    color: white;
+    }
+    .SeventhM h4{
+        color: rgb(232, 39, 46);
+        font-weight: bolder;
+    }
+    .SeventhM p{
+        margin-bottom: 25px;
+       width: 350px;
+        color: white;
+        font-weight: bolder;
+    }
+    .SeventhM button{
+        border-radius: 40px;
+        width: 200px;
+        height: 60px;
+        background-color: rgb(232, 39, 46);
+        color: white;
+        border: none;     
+        font-weight: bolder;
+    }
+    .SeventhB{
+        background-color: rgb(36, 36, 36);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 60px 70px;
+        
+    }
+    .Seventhimg{
+        width: 400px;
+        height: 370px;
+        align-self: self-end;
+        margin-top: 200px;
+    }
+
+    /* Eighth */
+    .Eighthimg1{
+        width: 300px;
+        height: 240px;
+        border-radius: 5px;
+        background: url('https://mobirise.com/extensions/dinerm4/assets/images/01.jpg');
+        background-size: cover;
+        background-position-y: -150px;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px rgb(224, 216, 216);
+    }
+    .Eighthimg2{
+        width: 300px;
+        height: 240px;
+        border-radius: 5px;
+        background: url('https://mobirise.com/extensions/dinerm4/assets/images/02.jpg');
+        background-size: cover;
+        
+        background-position-x: center;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px rgb(224, 216, 216);
+    }
+    .Eighthimg3{
+        width: 300px;
+        height: 240px;
+        border-radius: 5px;
+        background: url('https://mobirise.com/extensions/dinerm4/assets/images/03.jpg');
+        background-size: cover;
+        
+        background-position-x: center;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px rgb(224, 216, 216);
+    }
+    .EighthM P img{
+        width: 10px;
+        height: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .EighthM  h3{
+        font-weight: bolder;
+    }
+    .EighthM p:nth-child(2){
+        color: red;
+        font-weight: bold;
+    }
+    .EighthM p:nth-child(4){
+        color: gray;
+        width: 150px;
+    }
+    .EighthM button{
+        border: none;
+        display: flex;
+        font-weight: bold;
+        background-color: white;
+    }
+    .EighthM{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        box-shadow: 5px 5px 5px 5px rgb(236, 229, 229);
+        border: none;
+        border-radius: 15px;
+        padding-bottom: 20px;
+
+        margin-bottom: 20px;
+    }
+    .Eighthalign{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .EighthB h1{
+        font-weight: 900;
+        font-size: 55px;
+    }
+    .EighthB h4{
+        color: red;
+    }
+    .EighthB{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* ninth */
+    .NinthO{
+        position: relative;
+        
+    }
+    .NinthM{
+        background: url('https://mobirise.com/extensions/dinerm4/assets/images/background2.jpg');
+        width: 1100px;
+        height: 600px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;z-index: -1;
+       
+      
+
+    }
+.NinthM  img{
+    width: 90px;
+   padding: 5px;
+    border-radius: 50%;
+    background-color:rgb(137, 184, 88) ;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer; 
+    
+}
+
+@keyframes anime {
+    0%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+    10%{box-shadow: 0px 0px 0px 0rem ;opacity: 0.7;}
+    20%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+    30%{box-shadow: 0px 0px 0px 0rem ;opacity: 0.7;}
+    40%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+    50%{box-shadow: 0px 0px 0px 0rem ;opacity: 0.7;}
+    60%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+    70%{box-shadow: 0px 0px 0px 0rem ;opacity: 0.7;}
+    80%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+    90%{box-shadow: 0px 0px 0px 0rem ;opacity: 0.7;}
+    100%{box-shadow: 0px 0px 0px .5rem rgb(207, 206, 206);opacity: 1;}
+}
+.playdiv{
+    position: absolute;
+    top: 210px;
+    left: 125px;
+    display: none; 
+    
+   
+}
+.NinthO button{
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    width: 30px;
+    border-radius: 10px;  
+}
+
+
+/* Eleventh */
+
+.EleventhT h1{
+    font-weight: 900;
+    color: white;
+    font-size: 55px;
+}
+.EleventhT p{
+    color: white;
+    font-size: 17px;
+}
+.ElevenO{
+    background-color:rgb(137, 184, 88)  ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.EleventhI input{
+    height: 60px;
+    width: 400px;
+border-radius: 50px;
+border: none;
+font-size: 20px;
+padding-left: 30px;
+padding-right: 30px;
+}
+.EleventhI button{
+    height: 60px;
+    width: 200px;
+    border: none;
+    background: rgb(41, 54, 26);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.EleventhI button img{
+    width: 20px;
+
+}
+.ElevenO img:nth-child(2){
+    width: 400px;
+}
+
+/* twelth */
+
+.TwelthL h3{
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: black;
+}
+.TwelthL input{
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    
+}
+.TwelthL {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.TwelthL button{
+    background-color:rgb(137, 184, 88) ;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.TwelthO iframe{
+    width: 500px;
+    height: 500px;
+}
+.TwelthO{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.TwelthL textarea{
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+/* thirteen */
+.ThirteenL table tr img{
+width: 20px;
+}
+.ThirteenL table tr th{
+    padding: 10px  10px 15px 10px;
+    
+}
+.ThirteenL table tr th:nth-child(2){
+    width: 180px;
+    opacity: 0.7;
+}
+.ThirteenM img{
+    width: 100px;
+}
+.ThirteenM p{
+    font-weight: bold;
+    width: 400px;
+    opacity: 0.7;
+    font-size: 18px;
+}
+.ThirteenM{
+    text-align: center;
+}
+.ThirteenR section  img{
+    width: 110px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.ThirteenO{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(243, 247, 237);
+    flex-wrap: wrap;
+}
+.ThirteenR{
+    text-align: center;
+}
+
+/* fourteenth */
+
+.FourteenthL  table tr  td{
+margin-left: 50px;
+padding-bottom: 20px;
+color: white;font-weight: 500;
+}
+.FourteenthR img{
+width: 50px;
+margin-right: 10px;
+cursor: pointer;
+
+}
+.FourteenthO{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    background:rgb(137, 184, 88) ;
+}
+
+
+/* fifteenth */
+.FifteenM img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 0% 0%;
+    margin-bottom: 20px;
+}
+.FifteenM  h4{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(36, 36, 36);
+    
+}
+.FifteenM{
+    text-align: center;
+    width: 700px;
+}
+.Fifteenim{
+    width: 60px;
+    height: 65px;
+    opacity: 0.4;
+}
+.Fifteenim:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.FifteenF{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.FifteenB h1{
+    font-weight: 900;
+    font-size: 55px;
+}
+.FifteenB h4{
+    color:rgb(137, 184, 88) ;
+}
+.FifteenB{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.FifteenO{
+    background: rgb(243, 247, 237);
+    height: 100vh;
+}
+
+    @media all and (max-width:800px){
+
+    .Seventhimg{
+        width: 400px;
+        height: 370px;
+        margin-top: 50px;
+       
+    }
+    .SeventhM{
+        width: 100%;
+        height: 400px;
+        background-color:rgb(36, 36, 36);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       border-radius: 5px;
+        
+    }
+
+
+    
+    
+
+    }
